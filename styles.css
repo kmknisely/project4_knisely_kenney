@@ -30,6 +30,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+	font-family: 'Karla', sans-serif;
 }
 .content {
   flex: 1 0 auto;
@@ -43,10 +44,17 @@ body {
 
 footer {
   flex-shrink: 0;
-	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	width: 96%;
 	background-color: #22223D;
 	color: white;
-	margin
+	padding: 1.5% 2%;
+	font-size: .9rem;
+}
+
+footer .whale-link{
+	color: #7FFFD4;
 }
 
 /* ---------------------------------------
@@ -315,6 +323,7 @@ iframe{
 .vid-main {
 	width: 100%;
 	display: flex;
+	margin: 7% 0 0 0;
 	flex-direction: row-reverse;
 }
 
