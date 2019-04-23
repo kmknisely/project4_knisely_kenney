@@ -196,8 +196,22 @@ article h1{
 /* ---------------------------------------
               Quiz Page Styles
 ------------------------------------------- */
-h1{
+.quiz-heading h1{
 	margin: 10% 2% 2% 2%;
+	text-align: center;
+	color: #22223D;
+	font-size: 3rem;
+}
+
+.quiz-heading h2{
+	margin: 0 5%;
+	color: #98e6cc;
+	text-align: center;
+}
+
+.quiz-heading p {
+	margin: 3% 0;
+	text-align: center;
 }
 
 
@@ -477,19 +491,10 @@ iframe{
 	padding: 1% 0 0 0;
 	margin: 0 2%;
 	width: 23%;
-	height: 475px;
-	background-color: #373737;
-	overflow: scroll;
-}
-
-.player-imgs::-webkit-scrollbar{
-	width: 1.5%;
+	height: 100%;
 	background-color: #373737;
 }
 
-.player-imgs::-webkit-scrollbar-thumb{
-background-color: #98e6cc;
-}
 
 .alt-container{
 	margin: 0% 5% 5% 5%;
