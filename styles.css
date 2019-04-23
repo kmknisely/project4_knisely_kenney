@@ -157,17 +157,40 @@ footer .whale-link{
               Facts Page Styles
 ------------------------------------------- */
 
+#facts-pic{
+	position: absolute;
+	z-index: -1000;
+	width: 100%;
+	object-fit: cover;
+	top:5%;
+	max-height: 500px;
+}
+
+article{
+	margin-top: 30%;
+}
+
+article h1{
+	margin: 5%;
+	font-size: 3rem;
+	text-align: center;
+	color: #22223D;
+
+}
+
 .facts-main{
-	margin-top: 20%;
+	margin-bottom: 5%;
 }
 
 .facts-main h2 {
 	margin: 0 5%;
 	color: #98e6cc;
+	font-size: 2rem;
 }
 
 .facts-main p {
 	margin: 5%;
+	line-height: 2rem;
 }
 
 /* ---------------------------------------
@@ -387,9 +410,21 @@ iframe{
 	/* ---------------------------------------
 		        Facts Page Styles 760
 	------------------------------------------- */
+	article h1{
+		margin: 5%;
+		font-size: 5rem;
+		text-align: center;
 
-		.facts-main{
-			margin-top: 10%;
+	}
+
+		.facts-main h2 {
+			margin: 0 10%;
+			color: #98e6cc;
+			font-size: 3rem;
+		}
+
+		.facts-main p {
+			margin:  2% 10%;
 		}
 
 	/* ---------------------------------------
@@ -416,10 +451,10 @@ iframe{
 
 	.vid-back {
 		display: block;
-		position: absolute;
+		position: fixed;
 		top:0;
 		left: 0;
-		width: 100%;
+		width: 100vw;
 		height: 100vh;
 		background-color: #161616;
 		z-index: -100000;
