@@ -63,9 +63,8 @@ $(document).ready(function () {
     });
 })
 
-
 $(document).ready(function () {
-    $('#player-alt-3').click(function () {
+    $('#hover1').click(function () {
         //loop players array to stop them all
         $(players).each(function (i) {
             console.log(this);
@@ -73,6 +72,29 @@ $(document).ready(function () {
         });
     });
 })
+
+$(document).ready(function () {
+    $('#hover2').click(function () {
+        //loop players array to stop them all
+        $(players).each(function (i) {
+            console.log(this);
+            this.stopVideo();
+        });
+    });
+})
+
+$(document).ready(function () {
+    $('#hover3').click(function () {
+        //loop players array to stop them all
+        $(players).each(function (i) {
+            console.log(this);
+            this.stopVideo();
+        });
+    });
+})
+
+
+
 
 
 

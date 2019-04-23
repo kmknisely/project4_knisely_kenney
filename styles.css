@@ -41,7 +41,7 @@ body {
 
 #container{
 	width: 100%;
-	height: 94%;
+	height: 91%;
 }
 
 footer {
@@ -153,7 +153,22 @@ footer .whale-link{
 .logo-menu{
 	width: 100%;
 }
+/* ---------------------------------------
+              Facts Page Styles
+------------------------------------------- */
 
+.facts-main{
+	margin-top: 20%;
+}
+
+.facts-main h2 {
+	margin: 0 5%;
+	color: #98e6cc;
+}
+
+.facts-main p {
+	margin: 5%;
+}
 
 /* ---------------------------------------
               Quiz Page Styles
@@ -206,6 +221,7 @@ figure h3{
 /* ---------------------------------------
               Videos Page Styles
 ------------------------------------------- */
+
 .player {
 	width: 100%;
 }
@@ -369,6 +385,14 @@ iframe{
 		}
 
 	/* ---------------------------------------
+		        Facts Page Styles 760
+	------------------------------------------- */
+
+		.facts-main{
+			margin-top: 10%;
+		}
+
+	/* ---------------------------------------
 		          Quiz Page Styles 760
 	------------------------------------------- */
 
@@ -390,6 +414,18 @@ iframe{
 	            Videos Page Styles 760
 	------------------------------------------- */
 
+	.vid-back {
+		display: block;
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background-color: #161616;
+		z-index: -100000;
+	}
+
+
 .vid-main {
 	width: 100%;
 	display: flex;
@@ -398,12 +434,26 @@ iframe{
 }
 
 .player-container{
-	width: 76%;
-	padding: 0 2%;
+	width: 71%;
+	padding: 0 2% 2% 2%;
 }
 
 .player-imgs{
-	width: 20%;
+	padding: 1% 0 0 0;
+	margin: 0 2%;
+	width: 23%;
+	height: 475px;
+	background-color: #373737;
+	overflow: scroll;
+}
+
+.player-imgs::-webkit-scrollbar{
+	width: 1.5%;
+	background-color: #373737;
+}
+
+.player-imgs::-webkit-scrollbar-thumb{
+background-color: #98e6cc;
 }
 
 .alt-container{
