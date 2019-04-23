@@ -17,17 +17,13 @@ header {
 	background-color: #22223D;
 	height: 75px;
 	display: flex;
+	flex-direction: row-reverse;
 	justify-content: space-between;
 
 }
 
 ul li {
 	list-style-type: none;
-}
-
-#container{
-	width: 100%;
-	height: 300px;
 }
 
 html, body {
@@ -45,7 +41,7 @@ body {
 
 #container{
 	width: 100%;
-	height: 300px;
+	height: 94%;
 }
 
 footer {
@@ -56,7 +52,8 @@ footer {
 	background-color: #22223D;
 	color: white;
 	padding: 1.5% 2%;
-	font-size: .9rem;
+	font-size: .5rem;
+	z-index: 100;
 }
 
 footer .whale-link{
@@ -74,7 +71,7 @@ footer .whale-link{
 .hamburger{
   background:none;
   line-height:45px;
-  padding:5px 15px 0px 15px;
+  padding:2%;
   color: #98e6cc;
   border:0;
   font-size:3rem;
@@ -143,8 +140,14 @@ footer .whale-link{
 }
 
 .logo-menu-container{
-	width: 50%;
+	position: absolute;
+	top: 0;
+	left: -2%;
+	width: 20%;
 	z-index: 100;
+	padding: 5%;
+	background-color:#22223D;
+	border-radius: 50%;
 }
 
 .logo-menu{
@@ -303,7 +306,7 @@ iframe{
 
 	#container {
 		width: 100%;
-		height: 100vh;
+		height: 96%;
 	}
 
 	/* ---------------------------------------
@@ -401,4 +404,8 @@ iframe{
 
 .alt-container{
 	margin: 0% 5% 5% 5%;
+}
+
+footer{
+	font-size: .9rem;
 }
